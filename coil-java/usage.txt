@@ -1,0 +1,5 @@
+<dependency>
+    <groupId>com.github.yourname</groupId>
+    <artifactId>coil-java</artifactId>
+    <version>v0.1.0</version>
+</dependency>

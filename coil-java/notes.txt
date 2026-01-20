@@ -1,0 +1,21 @@
+PS C:\Users\muthu\COIL\coil-java> javac -d build (Get-ChildItem -Recurse -Filter *.java | ForEach-Object { $_.FullName })
+PS C:\Users\muthu\COIL\coil-java> 
+PS C:\Users\muthu\COIL\coil-java> jar cf coil.jar -C build .                                               
+PS C:\Users\muthu\COIL\coil-java> jar tf coil.jar
+META-INF/
+META-INF/MANIFEST.MF
+com/
+com/coil/
+com/coil/COIL.class
+com/coil/core/
+com/coil/core/Escaper.class
+com/coil/core/TableDecoder.class
+com/coil/core/TableEncoder.class
+com/coil/core/TypeRegistry.class
+com/coil/decoder/
+com/coil/decoder/Decoder.class
+com/coil/encoder/
+com/coil/encoder/Encoder.class
+com/coil/util/
+com/coil/util/Stats.class
+PS C:\Users\muthu\COIL\coil-java>
