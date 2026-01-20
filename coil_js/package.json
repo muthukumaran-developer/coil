@@ -1,0 +1,21 @@
+{
+  "name": "coil-js",
+  "version": "0.1.0",
+  "description": "COIL — Token-optimized structured data encoding for LLM pipelines",
+  "main": "src/index.js",
+  "bin": {
+    "coil": "./bin/coil.js"
+  },
+  "keywords": [
+    "llm",
+    "token-optimization",
+    "json",
+    "compression",
+    "prompt-engineering",
+    "ai-infra",
+    "protocol",
+    "encoding"
+  ],
+  "author": "Muthukumaran S",
+  "license": "MIT"
+}

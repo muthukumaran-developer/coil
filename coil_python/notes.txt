@@ -1,0 +1,6 @@
+Remove-Item -Recurse -Force dist, build, pycoil.egg-info, coil.egg-info
+ -ErrorAction SilentlyContinue
+
+ python -m build  
+
+ twine upload dist/*  

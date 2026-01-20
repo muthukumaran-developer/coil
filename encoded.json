@@ -1,0 +1,31 @@
+{
+  "system": {
+    "service": "payment-gateway",
+    "region": "ap-south-1",
+    "version": "v2.3.1"
+  },
+  "session": {
+    "session_id": "sess-98231",
+    "user_id": "user-1442",
+    "start_time": "2025-03-21T10:15:00Z"
+  },
+  "transactions": {
+    "meta": "META&ORDER=amount,city,method,status,timestamp,txn_id&tid=tbl_1&vmap=V1:SUCCESS;V2:Chennai;V3:Bangalore;V4:FAILED;V5:UPI;V6:CARD;V7:499",
+    "body": "BODY|table[5]{amount,city,method,status,timestamp,txn_id}|V7,V2,V5,V1,2025-03-21T10\\:16\\:02Z,TXN1001|1299,V2,V6,V4,2025-03-21T10\\:17\\:45Z,TXN1002|249,V3,V5,V1,2025-03-21T10\\:18\\:10Z,TXN1003|V7,V2,V5,V1,2025-03-21T10\\:19\\:55Z,TXN1004|999,V3,V6,V4,2025-03-21T10\\:21\\:33Z,TXN1005"
+  },
+  "logs": [
+    "INFO: session started",
+    "INFO: user authenticated",
+    "WARN: retrying payment",
+    "ERROR: card declined",
+    "INFO: fallback to UPI",
+    "INFO: payment completed"
+  ],
+  "summary": {
+    "total_txns": 5,
+    "success_count": 3,
+    "failed_count": 2,
+    "dominant_method": "UPI",
+    "dominant_city": "Chennai"
+  }
+}

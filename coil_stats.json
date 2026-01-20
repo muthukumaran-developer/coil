@@ -1,0 +1,21 @@
+{
+  "original": {
+    "chars": 119,
+    "bytes": 119,
+    "tokens": 29,
+    "words": 14
+  },
+  "encoded": {
+    "chars": 119,
+    "bytes": 119,
+    "tokens": 29,
+    "words": 14
+  },
+  "comparison": {
+    "token_saving_%": 0.0,
+    "byte_saving_%": 0.0,
+    "twr_original": 2.071,
+    "twr_encoded": 2.071
+  },
+  "lossless": false
+}
